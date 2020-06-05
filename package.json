@@ -1,23 +1,23 @@
 {
   "name": "knex-paginator-fixed",
   "version": "1.0.0",
-  "description": "Simple paginator for Knex. It adds the .paginate() function to knex's query builder.",
+  "description": "**Warning: do not use in production. This is not being actively maintained.**",
   "main": "lib/knex-paginator.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:HKskn/knex-paginator.git"
+    "url": "git+https://github.com/HKskn/knex-paginator.git"
   },
-  "keywords": [
-    "knex",
-    "pagination",
-    "paginator"
-  ],
-  "author": "Haluk Keskin",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HKskn/knex-paginator/issues"
+  },
+  "homepage": "https://github.com/HKskn/knex-paginator#readme"
 }
