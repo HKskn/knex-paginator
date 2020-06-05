@@ -9,20 +9,13 @@
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cannblw/knex-paginator.git"
+    "url": "git+ssh://git@github.com:HKskn/knex-paginator.git"
   },
   "keywords": [
     "knex",
     "pagination",
     "paginator"
   ],
-  "author": "Edgar Chirivella <edgar9512@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cannblw/knex-paginator/issues"
-  },
-  "homepage": "https://github.com/cannblw/knex-paginator#readme",
-  "dependencies": {
-    "knex": ""
-  }
+  "author": "Haluk Keskin",
+  "license": "ISC"
 }
